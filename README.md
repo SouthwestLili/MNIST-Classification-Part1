@@ -24,7 +24,7 @@ Pixel values are floating-point values between 0 and 1.
 
 ### Sample MNIST Images
 
-![First 20 MNIST training images](images\Figure_1.png)
+![First 20 MNIST training images](.\images\Figure_1.png)
 
 ## Implemented Methods
 
