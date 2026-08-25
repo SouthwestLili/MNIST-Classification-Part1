@@ -24,7 +24,7 @@ Pixel values are floating-point values between 0 and 1.
 
 ### Sample MNIST Images
 
-![First 20 MNIST training images](..\images\Figure_1.png)
+![First 20 MNIST training images](images/Figure_1.png)
 
 ## Implemented Methods
 
@@ -103,7 +103,7 @@ The model was trained using:
 
 ### Training Cost
 
-![Softmax cost function](..\images\Figure_2.png)
+![Softmax cost function](images/Figure_2.png)
 
 For the standard temperature parameter:
 
@@ -125,20 +125,20 @@ error**.
 
 ### Temperature = 0.5
 
-![Softmax cost with temperature 0.5](..\images\Figure_3.png)
+![Softmax cost with temperature 0.5](images/Figure_3.png)
 
 The beginning of training shows noticeable oscillation, followed by
 convergence.
 
 ### Temperature = 1.0
 
-![Softmax cost with temperature 1.0](..\images\Figure_4.png)
+![Softmax cost with temperature 1.0](images/Figure_4.png)
 
 Training is smoother and the cost decreases steadily.
 
 ### Temperature = 2.0
 
-![Softmax cost with temperature 2.0](..\images\Figure_5.png)
+![Softmax cost with temperature 2.0](images/Figure_5.png)
 
 With the larger temperature, the cost decreases more slowly.
 
@@ -176,7 +176,7 @@ Additional results:
   Test Error     18.81%
   Accuracy       81.19%
 
-![Modulo-3 Softmax training cost](..\images\Figure_6.png)
+![Modulo-3 Softmax training cost](images/Figure_6.png)
 
 Direct training on modulo-3 labels performs worse than recognizing the
 original digits first and then converting predictions modulo 3. The
@@ -199,7 +199,7 @@ $$
 
 ### First Two Principal Components
 
-![MNIST first two principal components](..\images\Figure_7.png)
+![MNIST first two principal components](images/Figure_7.png)
 
 The first 100 training examples are shown in the space of the first two
 principal components. Some classes occupy different regions, although
@@ -219,22 +219,22 @@ greatly reduces the size of the representation.
 
 ### First Image --- PCA Reconstruction
 
-![First image reconstructed using PCA](..\images\Figure_8.png)
+![First image reconstructed using PCA](images/Figure_8.png)
 
 ### First Image --- Original
 
-![Original first image](..\images\Figure_9.png)
+![Original first image](images/Figure_9.png)
 
 The reconstructed image preserves the overall digit shape but is
 smoother and blurrier because only 18 principal components are retained.
 
 ### Second Image --- PCA Reconstruction
 
-![Second image reconstructed using PCA](..\images\Figure_10.png)
+![Second image reconstructed using PCA](images/Figure_10.png)
 
 ### Second Image --- Original
 
-![Original second image](..\images\Figure_11.png)
+![Original second image](images/Figure_11.png)
 
 The primary structure remains recognizable while fine details are lost,
 illustrating the information-compression trade-off of PCA.
